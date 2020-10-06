@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+.dark {
+    color: #b3b9c5;
+    background: #202020;
+    background-color: #202020;
+}
+
+.dark-social-logos {
+    color:#b3b9c5;
+}
+
+.dark-social-logos:hover {
+    color: #0056b3 !important;
+}
+
+.profile-pic-img-container {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.profile-pic-img-container > img {
+    width: 100%;
+    height: auto;
+}
+
+.max-width-social {
+    max-width: 240px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .max-width-nav {
+        max-width: 280px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .max-width-nav {
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+}
+
+.nav-link {
+    color: #b3b9c5 !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+    color: #0056b3 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #202020 !important;
+    background-color: #b3b9c5 !important;
+}
+
+hr {
+    background: #b3b9c5;
+}
